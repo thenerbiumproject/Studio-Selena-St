@@ -1,0 +1,10 @@
+reCAPTCHA v3 
+reCAPTCHA v3 returns a score for each request without user friction. The score is based on interactions with your site and enables you to take an appropriate action for your site. Register reCAPTCHA v3 keys on the reCAPTCHA Admin console.
+
+This page explains how to enable and customize reCAPTCHA v3 on your webpage.
+
+Placement on your website
+reCAPTCHA v3 will never interrupt your users, so you can run it whenever you like without affecting conversion. reCAPTCHA works best when it has the most context about interactions with your site, which comes from seeing both legitimate and abusive behavior. For this reason, we recommend including reCAPTCHA verification on forms or actions as well as in the background of pages for analytics.
+
+Note: reCAPTCHA tokens expire after two minutes. If you're protecting an action with reCAPTCHA, make sure to call execute when the user takes the action rather than on page load.
+You can execute reCAPTCHA on as many actions as you want on the same page.
